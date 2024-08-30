@@ -1,0 +1,186 @@
+body{background-color:#000000;}
+#image{
+    height:750px;
+    width: 100%;
+    background-image: url("../images/images.jpg");
+    background-image:linear-gradient(90deg, gray 100% rgb(15, 6, 6) 100%);
+    opacity: (0.1);
+    background-color:black;
+}
+.he{
+    min-height:100px;
+    color:red; 
+    font-size: 45px;
+}
+.btn1{
+    border:none;
+     background-color: transparent;
+}
+.btn2{
+    border-radius: 5px; 
+    background-color:red;
+    border-color:red;
+    width:100px; 
+    height:35px; 
+    border-radius: 5px;
+}
+select{
+    width: 100px; 
+    height: 35px;
+     border-radius:5px;
+     background-color:rgba(0,0,0,0.4);
+     color:white;
+      padding:0px 10px;
+      border-color:white;
+    }
+.h13{min-height: 40px;}
+.h10{
+    width: 60px;
+    min-height: 100px;
+    background-color:transparent;
+    color:white;
+    line-height:75px;
+    font-size: 65px;
+    
+}
+.h12{
+    min-height: 40px;
+}
+.h14{min-height: 100px;}
+.btn0{
+    height: 100px;
+    width: 26px;
+    transform: translateY(-40vh);
+    margin-left: 90vw;
+    background-color:transparent;
+    border-color:white;
+    color:white;
+    border-radius:20px;
+}
+.btn0:hover{
+    height: 100px;
+    width: 26px;
+    transform: translateY(-40vh);
+    margin-left: 90vw;
+    background-color:transparent;
+    border-color:green;
+    color:green;
+    border-radius:20px;
+}
+.btn01{
+    height: 100px;
+    transform: translateY(-40vh);
+    margin-left: 5vw;
+    background-color:transparent;
+    border-color:white;
+    color:white;
+    box-sizing: border-box;
+    border-radius:20px;
+}
+.btn01:hover{
+    height: 100px;
+    transform: translateY(-40vh);
+    margin-left: 5vw;
+    background-color:transparent;
+    border-color:green;
+    color:green;
+    box-sizing: border-box;
+    border-radius:20px;
+}
+#b{display:none;}
+#box2{
+    height: 600px;
+    width: 960px;
+    margin: -13% 15%;
+    box-shadow:0 0 10px white;
+    display: none;
+    padding: 0px 20px 20px 20px;
+    position:absolute;
+    background-color:transparent;
+    z-index: 1;
+    background-image:linear-gradient(155deg, white 30% ,black 0%,  black 150%);
+}
+.x{cursor:pointer;
+position: absolute;
+top:0.5vh;
+right: 2vw;
+border-radius:50%;
+box-sizing:border-box;
+border-color:white;
+z-index: 1;
+background-color:transparent;
+}
+#a21,#a22,#a23,#a24,#a12,#a13,#a14,#a15{
+    filter:brightness(45.5%);
+    transition: all 2s;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+#a21:hover,#a22:hover,#a23:hover,#a24:hover,#a12:hover,#a13:hover,#a14:hover,#a15:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+    transition: all 2s;
+    z-index: 1;
+    
+}
+#box3{margin-left:-20px;border-radius:10px;filter:brightness(40%); position: relative;transform: translateY(-7vh); }
+
+.clr1{background-image: linear-gradient(360deg,  #1f1323 20%, #1b1d3c 90%);}
+.clr{color:#e97bcc; cursor: pointer;}
+#hide1{
+    width: 100%;
+    height: 100px;
+    border:2px solid white;
+}
+#hide2,#hide3,#hide4,#hide5,#hide6,#hide7{
+    border:2px solid white;
+}
+.add,.add1,.add2,.add3,.add4,.add5{
+    margin-left: 97%;
+    margin-top: -4%;
+    cursor: pointer;
+}
+.close,.close1,.close2,.close3,.close4,.close5{
+    margin-left: 97.5%;
+    margin-top: -4%;
+    display: none;
+    cursor:pointer;
+}
+#hide2 ,#hide3,#hide4,#hide5,#hide6,#hide7{display: none; margin-left: 0.7%;}
+
+#email{width: 70%;background-color:transparent; color:white;border:3px solid white;}
+#sub{
+    width: 20%;
+    margin-left: 72%;
+    margin-top: -4.7%;
+    background-color: red;
+}
+#E-mail{background-color:transparent;
+border:3px solid white; color:white;}
+
+#E-mail::placeholder,#email::placeholder{color:white;
+padding-left: 10px;}
+.logo{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-items: center;
+    transform: translateX(20vw);
+    margin-top: 4vh;
+    color:red;
+}
+.btnq{
+    width: 90px;
+    height:30px;
+    transform: translateY(-7vh);
+    text-align: center;
+    line-height: 10px;
+}
+.p1{transform: translateY(-6vh);}
+.fs-0{
+    font-size: 70px;
+    transform: translateY(-12vh);
+    margin-left: 0.7vw;
+}
+.clr3{background-color:red;}
